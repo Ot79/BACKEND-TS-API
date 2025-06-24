@@ -1,0 +1,62 @@
+# BACKEND-TS-API
+
+Una API RESTful profesional construida con **Node.js**, **TypeScript**, **Express.js** y **MongoDB**, diseñada para servir como base sólida en proyectos reales.
+
+---
+
+## 🎯 Objetivo del Proyecto
+
+Crear una API robusta, modular y segura que permita:
+
+- Registrar y autenticar usuarios.
+- Realizar operaciones CRUD sobre una entidad real (como tareas, rutas de trekking, productos, etc.).
+- Implementar buenas prácticas de desarrollo Backend moderno.
+- Prepararse para despliegue, testing y mantenimiento profesional.
+
+Este proyecto sirve como entrenamiento práctico para dominar el **desarrollo Backend desde cero** con tecnologías modernas.
+
+---
+
+## 🚀 Tecnologías Principales
+
+- **Node.js** – Motor de ejecución JavaScript en el servidor
+- **TypeScript** – Tipado estático y herramientas modernas
+- **Express.js** – Framework ligero para APIs
+- **MongoDB** + **Mongoose** – Base de datos NoSQL orientada a documentos
+- **dotenv** – Manejo de variables de entorno
+- **bcryptjs** – Hashing de contraseñas
+- **jsonwebtoken (JWT)** – Autenticación segura
+
+---
+
+## 📁 Estructura del Proyecto (provisional)
+
+src/
+├── controllers/
+├── models/
+├── routes/
+├── middlewares/
+├── utils/
+├── config/
+├── index.ts
+
+
+---
+
+## ✅ Funcionalidades Principales
+
+- [ ] Registro de usuarios
+- [ ] Login con JWT
+- [ ] CRUD completo sobre entidad principal (por definir)
+- [ ] Validación de entradas (con Zod o Express Validator)
+- [ ] Estructura limpia y escalable
+- [ ] Manejo de errores centralizado
+- [ ] Seguridad básica (CORS, headers, rate limit, etc.)
+
+---
+
+## 🔧 Cómo iniciar el proyecto
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tuusuario/BACKEND-TS-API.git
